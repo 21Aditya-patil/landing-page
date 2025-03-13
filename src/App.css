@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --red: #D01C28;
+  --gray: #5A5959;
+}
+
+*{
+  margin: 0;
+  font-family: "Poppins", serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+ul{
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+#login{
+  background-color: var(--red);
+  color: aliceblue;
+  height: 35px;
+  width: 75px;
+  border: #D01C28;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  gap: 20px;
+}
+
+.hero-info{
+  width: 505px;
+  height: 600px;
+}
+
+.hero-info h1{
+  width: 595px;
+  height: 298px;
+  font-size: 78px;
+  font-weight: 800;
+}
+
+.hero-info p{
+  width: 404px;
+  height: 91px;
+  font-size: 16px;
+  margin-top: 55px;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+#shop-btn{
+  background-color: var(--red);
+  color: aliceblue;
+  height: 35px;
+  width: 100px;
+  border: #D01C28;
+  border-radius: 4px;
+  margin-top: 25px;
+  margin-right: 20px;
+  font-size: 16px;
+  padding: 0;
+  cursor: pointer;
+}
+
+#cat-btn{
+  background: transparent;
+  color: var(--gray);
+  border-color: var(--gray);
+  border: 1px solid;
+  font-weight: 600;
+  height: 35px;
+  width: 100px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.hero-img{
+  margin-top: 25px;
+}
