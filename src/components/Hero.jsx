@@ -12,7 +12,7 @@ function Hero() {
             <button id='cat-btn'>Category</button>
         </div>
         <div className="hero-img">
-            <img src="./public/images/shoe_image.png" alt="shoes" width={530}/>
+            <img src="images/shoe_image.png" alt="shoes" width={530}/>
         </div>
         </div>
     </>

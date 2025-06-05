@@ -101,3 +101,18 @@ ul{
 .hero-img{
   margin-top: 25px;
 }
+
+#shop-btn,
+#cat-btn {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#shop-btn:hover {
+  background-color: #ff5722; /* Example color */
+  color: #fff;
+}
+
+#cat-btn:hover {
+  background-color: #2196f3; /* Example color */
+  color: #fff;
+}

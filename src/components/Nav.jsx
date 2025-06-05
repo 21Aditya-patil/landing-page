@@ -5,7 +5,7 @@ function Nav() {
   return (
     <>
         <nav>
-            <img src="./public/images/brand_logo.png" alt="logo" width={78}/>
+            <img src="/images/brand_logo.png" alt="logo" width={78}/>
             <ul>
               <li href='#'>Menu</li>
               <li href='#'>Location</li>
