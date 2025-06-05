@@ -107,6 +107,11 @@ ul{
   transition: background-color 0.3s, color 0.3s;
 }
 
+#login:hover {
+  background-color: #ff5722; /* Example color */
+  color: #fff;
+}
+
 #shop-btn:hover {
   background-color: #ff5722; /* Example color */
   color: #fff;
